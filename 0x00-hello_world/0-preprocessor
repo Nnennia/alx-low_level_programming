@@ -1,6 +1,2 @@
-# include<stdio.h>
-
-int main(){
-    printf("something");
-    return 0;
-}
+#!/bin/bash
+gcc -E $CFILE -o c
