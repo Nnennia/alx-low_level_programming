@@ -4,7 +4,7 @@
 
 /**
  * main -> assign a random number to a variable n each time it is executed
- * Retutn : always 0
+ * Return : always 0
  */
 int main(void)
 {
@@ -13,12 +13,12 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
  if (n > 0)
-    printf("%d is postive\n", n);
+printf("%d is postive\n", n);
 if ( n == 0)
-       printf("%d is zero\n", n); 
+printf("%d is zero\n", n); 
 if (n < 0)
- {
- printf("%d is negative\n", n);
- }
-	return (0);
+{
+printf("%d is negative\n", n);
+}
+return (0);
 }
