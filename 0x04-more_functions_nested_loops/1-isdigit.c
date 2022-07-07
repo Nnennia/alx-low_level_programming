@@ -1,28 +1,28 @@
-#include <stdio.h>
 #include "main.h"
+#include <stdio.h>
 
 /**
- * _isdigit - checks for a digit 0-9
- * @c: character to check
- * Return: 1 if c is a digit, 0 otherwise
+ * _isdigit - return 1 if parameter is isdigit
+ * @c: the character to check
+ * Return:  0 (failure)
  */
 
 int _isdigit(int c)
 {
 
-    int a;
-
-    
-    for (a = '0'; a <= '9'; a++)
-    {
-        
-        if (a == c)
-        {
-            return (1);
-        }
-    }
+	int p;
 
 
-    return (0);
-    
+	for (p = '0'; p <= '9'; p++)
+	{
+
+		if (p == c)
+		{
+			return (1);
+		}
+	}
+
+
+	return (0);
+
 }
