@@ -13,10 +13,10 @@ int _isdigit(int c)
     int a;
 
     
-    for(a = '0'; a <= '9'; a++)
+    for (a = '0'; a <= '9'; a++)
     {
         
-        if(a == c)
+        if (a == c)
         {
             return (1);
         }
