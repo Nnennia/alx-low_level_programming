@@ -7,7 +7,8 @@
  * @src: pointer to the string to be copied
  * @n: int
  * Return: destination
-*/
+ */
+
 char *_strncpy(char *dest, char *src, int n)
 {
 	strncpy(dest, src, n);
