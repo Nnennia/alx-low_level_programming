@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * strstr - finds a substring
+ * _strstr - finds a substring
  * @haystack: the main c string to be scanned
  * @neddle: small string to be searched within haystack string
  * Return: if substring is located - return pointer to the first occurrence
