@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * memcpy - copies numBytes memory area pointed
+ * _memcpy - copies numBytes memory area pointed
  * @dest: pointer to copy @src into
  * @src: source buffer to copy characters from
  * @n: number of bytes to copy from src
@@ -13,7 +13,7 @@ char *_memcpy(char *dest, char * src, unsigned int n)
 
 
 	for(x = 0; x < n; x++)
-	   dest[x] = src[x];
+		dest[x] = src[x];
 
 	return (dest);
 

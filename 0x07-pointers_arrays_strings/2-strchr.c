@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * strchr - searches a character in a string
+ * _strchr - searches a character in a string
  * @s: The c string to be scanned
  * @c: the character to be searched in str
  * Return: pointer to the first occurance if c is found.
@@ -14,7 +14,7 @@ char *_strchr(char *s, char c)
 	for (b = 0; s[b] >= '\0'; b++)
 	{
 		if (s[b] == c)
-		    return (s + b);
+			return (s + b);
 	}
 
 	return ('\0');
