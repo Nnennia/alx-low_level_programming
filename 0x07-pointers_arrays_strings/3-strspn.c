@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * strspn - gets the length of the initial substring
+ * _strspn - gets the length of the initial substring
  * @s: string to be scanned
  * @accept: the initial segment to be calculated
  *
@@ -25,7 +25,7 @@ unsigned int _strspn(char *s, char *accept)
 			}
 
 			else if (accept[x + 1] == '\0')
-			    return (bytes);
+				return (bytes);
 		}
 
 		s++;
