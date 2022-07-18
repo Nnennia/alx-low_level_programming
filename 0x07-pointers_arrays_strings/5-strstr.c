@@ -3,11 +3,9 @@
  * strstr - finds a substring
  * @haystack: the main c string to be scanned
  * @neddle: small string to be searched within haystack string
- *
  * Return: if substring is located - return pointer to the first occurrence
  * NULL if the sequence is not present in a haystack
  */
-
 char *_strstr(char *haystack, char *needle)
 {
 	int i;
