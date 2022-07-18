@@ -3,7 +3,7 @@
 
 /**
  * print_diagsums - prints the sum of 2 diagonals of a sqaure
- *                  matrix of integers
+ * matrix of integers
  * @a: Matrix of intgers.
  * @size: size of matrix
  */
