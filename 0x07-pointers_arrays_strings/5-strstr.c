@@ -1,5 +1,4 @@
- #include "main.h"
-
+#include "main.h"
 /**
  * strstr - finds a substring
  * @haystack: the main c string to be scanned
