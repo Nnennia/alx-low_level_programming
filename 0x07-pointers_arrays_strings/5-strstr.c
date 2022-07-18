@@ -1,34 +1,34 @@
-#include "main.h"
+ #include "main.h"
 
 /**
  * strstr - finds a substring
  * @haystack: the main c string to be scanned
- * @neddle: small string to br searched within haystack string
+ * @neddle: small string to be searched within haystack string
  *
- * Return: if substring is located - return pointer to the first occurance
+ * Return: if substring is located - return pointer to the first occurrence
  * NULL if the sequence is not present in a haystack
  */
 
 char *_strstr(char *haystack, char *needle)
 {
-	int f;
+	int i;
 
-	if(*needle == 0)
+	if (*needle == 0)
 		return (haystack);
 
 	while (*haystack)
 	{
-		f = 0;
+		i = 0;
 
-		if (haystack[f] == needle[f])
+		if (haystack[i] == needle[i])
 		{
-			do{
-				if (needle[f + 1] == '\0')
+			do {
+				if (needle[i + 1] == '\0')
 					return (haystack);
 
-				f++;
+				i++;
 
-			} while (haystack[f] == needle[f]);
+			} while (haystack[i] == needle[i]);
 		}
 
 		haystack++;
