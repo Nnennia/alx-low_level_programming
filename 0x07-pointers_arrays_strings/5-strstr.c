@@ -1,11 +1,15 @@
-#include "main.h"
+ #include "main.h"
+
 /**
- * _strstr - finds a substring
- * @haystack: the main c string to be scanned
- * @neddle: small string to be searched within haystack string
- * Return: if substring is located - return pointer to the first occurrence
- * NULL if the sequence is not present in a haystack
+ * _strstr - Locates a substring.
+ * @haystack: The string to be scanned.
+ * @needle: The substring to be located.
+ *
+ * Return: If the substring is located - a pointer to the beginning
+ *                                       of the located substring.
+ *         If the substring is not located - NULL.
  */
+
 char *_strstr(char *haystack, char *needle)
 {
 	int i;
