@@ -7,7 +7,7 @@
  * @n: number of bytes to copy from src
  * Return: pointer to the destination buffer
  */
-char *_memcpy(char *dest, char * src, unsigned int n)
+char *_memcpy(char *dest, char *src, unsigned int n)
 {
 	unsigned int x;
 
@@ -16,5 +16,4 @@ char *_memcpy(char *dest, char * src, unsigned int n)
 		dest[x] = src[x];
 
 	return (dest);
-
 }
