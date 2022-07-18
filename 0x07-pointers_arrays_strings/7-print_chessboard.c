@@ -7,12 +7,12 @@
 
 void print_chesboard(char (*a)[8])
 {
-	int index1, index2;
+	int indx1, indx2;
 
-	for (index1 = 0; a[index1][7]; index1++)
+	for (indx1 = 0; a[indx1][7]; indx1++)
 	{
-		for (index2 = 0; index2 < 8; index2++)
-			_putchar(a[index1][index2]);
+		for (indx2 = 0; indx2 < 8; indx2++)
+			_putchar(a[indx1][indx2]);
 
 		_putchar('\n');
 	}
