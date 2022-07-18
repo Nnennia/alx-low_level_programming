@@ -6,7 +6,7 @@
  * @neddle: small string to br searched within haystack string
  *
  * Return: if substring is located - return pointer to the first occurance
- *         NULL if the sequence is not present in a haystack
+ * NULL if the sequence is not present in a haystack
  */
 
 char *_strstr(char *haystack, char *needle)
