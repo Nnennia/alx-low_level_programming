@@ -10,7 +10,7 @@ int is_prime_number(int n)
 	return (check_prime(n, 2));
 }
 /**
- * checks_prime - checks all numbers less than n, if it can be divided
+* check_prime - check all number < n if they can divide it
  * @n:int
  * @resp:int
  * Return: int
