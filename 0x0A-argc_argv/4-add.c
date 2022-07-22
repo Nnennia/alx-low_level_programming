@@ -3,14 +3,16 @@
 #include <ctype.h>
 
 /**
- * main - adds the postive numbers
- * @argc: The arguement count
- * @argv: The array of argument
- * Return: Zero
+ * main - sum of  the args
+ * @argc: Argument count
+ * @argv: Array of argument strings
+ *
+ * Return: 0 for successful exit
  */
-int main(int argc,char *argv[])
+int main(int argc, char *argv[])
 {
-	int y = 0;
+
+	int i = 0;
 	int sum = 0;
 
 	if (argc == 1)
@@ -19,20 +21,19 @@ int main(int argc,char *argv[])
 	}
 	else
 	{
-		for (y = 1; y < argc; y++)
+		for (i = 1; i < argc; i++)
 		{
-			if (!isdigit(*argv[y]))
+			if (!isdigit(*argv[i]))
 			{
 				printf("Error\n");
 			}
 			else
 			{
-				sum += atoi(argv[y]);
+				sum += atoi(argv[i]);
 			}
 		}
 		printf("%d\n", sum);
 	}
 
-	return 0;
-
+	return (0);
 }

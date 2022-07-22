@@ -1,12 +1,14 @@
 #include <stdio.h>
+
 /**
- * main - prints the number of arguments passed into it
- * @argc: counts the argument
- * @argv: array of argument
- * Return : Zero
+ * main - Print the name of the executable file
+ * @argc: Argument count
+ * @argv: Array of argument strings
+ *
+ * Return: 0 for succesful exit
  */
 int main(int argc, __attribute__((unused)) char *argv[])
 {
-	printf("%d\n", argc -1);
-	return 0;
+	printf("%d\n", argc - 1);
+	return (0);
 }

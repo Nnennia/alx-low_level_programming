@@ -11,10 +11,10 @@
 int main(int argc, char *argv[])
 {
 
-	int position, total, change, y;
+	int position, total, change, aux;
 	int coins[] = {25, 10, 5, 2, 1};
 
-	position = total = change = y = 0;
+	position = total = change = aux = 0;
 
 	if (argc != 2)
 	{
@@ -23,21 +23,22 @@ int main(int argc, char *argv[])
 	}
 
 	total = atoi(argv[1]);
-
 	if (total <= 0)
 	{
 		printf("0\n");
 		return (0);
 	}
 
+
+
 	while (coins[position] != '\0')
 
 	{
 		if (total >= coins[position])
 		{
-			y = (total / coins[position]);
-			change += y;
-			total -= coins[position] * y;
+			aux = (total / coins[position]);
+			change += aux;
+			total -= coins[position] * aux;
 		}
 
 		position++;

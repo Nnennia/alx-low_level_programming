@@ -1,10 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 /**
- * main - multiplies the arguments
- * @argc: the argument count
- * @argv: thye arrray of argument
- * return: 0
+ * main - multiply the args
+ * @argc: Argument count
+ * @argv: Array of argument strings
+ *
+ * Return: 0 for successful exit
  */
 int main(int argc, char *argv[])
 {
