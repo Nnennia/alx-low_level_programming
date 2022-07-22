@@ -4,7 +4,7 @@
  * main - multiplies the arguments
  * @argc: the argument count
  * @argv: thye arrray of argument
- * return: Zero
+ * return: 0
  */
 int main(int argc, char *argv[])
 {
@@ -17,5 +17,5 @@ int main(int argc, char *argv[])
 		printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
 	}
 
-	return 0;
+	return (0);
 }
