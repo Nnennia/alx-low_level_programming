@@ -11,10 +11,10 @@
 int main(int argc, char *argv[])
 {
 
-	int position, total, change, aux;
+	int position, total, change, y;
 	int coins[] = {25, 10, 5, 2, 1};
 
-	position = total = change = aux = 0;
+	position = total = change = y = 0;
 
 	if (argc != 2)
 	{
@@ -36,9 +36,9 @@ int main(int argc, char *argv[])
 	{
 		if (total >= coins[position])
 		{
-			aux = (total / coins[position]);
-			change += aux;
-			total -= coins[position] * aux;
+			y = (total / coins[position]);
+			change += y;
+			total -= coins[position] * y;
 		}
 
 		position++;
