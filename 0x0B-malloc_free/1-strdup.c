@@ -26,7 +26,7 @@ char *_strdup(char *str)
 		return (NULL);
 	while (y <= z)
 	{
-		x[y] = str[x];
+		x[y] = str[y];
 		y++;
 	}
 	return (x);
