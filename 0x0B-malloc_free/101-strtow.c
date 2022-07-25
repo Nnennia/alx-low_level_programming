@@ -4,7 +4,7 @@
 /**
  * wrdcnt - counts the number of words in a string
  * @s: string to count
- * return: int of number of words
+ * Return: int of number of words
  */
 int wrdcnt(char *s)
 {
