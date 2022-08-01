@@ -5,7 +5,7 @@
  * @argc: Argument count
  * @argv: Array of argument strings
  *
- * Return: 0 for succesful exit
+ * Return: 0
  */
 int main(int argc, char *argv[])
 {
