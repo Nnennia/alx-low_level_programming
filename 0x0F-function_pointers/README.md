@@ -1,1 +1,1 @@
-Task about function pointers
+functions pointers
