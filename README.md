@@ -1,7 +1,7 @@
 # 0x00-hello_world
 # 0x0A-argc_argv
 # 0x0B-malloc_free
-# 0x10-varadic_functions
+# 0x10-variadic_functions
 # 0x09-static_libraries
 # 0x01-variables_if_else_while
 # 0x02-functions_nested_loops
