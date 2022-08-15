@@ -13,7 +13,6 @@ int pop_litint(listint_t **head)
 	if (head == NULL)
 		return (0);
 
-
 	current = *head;
 	if (current == NULL)
 		return (0);
