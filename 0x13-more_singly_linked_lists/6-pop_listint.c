@@ -5,7 +5,7 @@
  * @head: head of linked list
  * Return: the head of the node dta (n)
  */
-int pop_litint(listint_t **head)
+int pop_listint(listint_t **head)
 {
 	listint_t *current;
 	int v;
